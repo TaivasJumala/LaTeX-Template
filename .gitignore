@@ -1,0 +1,39 @@
+# [todo)
+# - add all file type listed in ./.vscode/settings.json/"latex-workshop.latex.clean.fileTypes"
+# - don't use *.pdf
+
+
+# @file .gitignore
+# @author TaivasJumala
+# @email taivasjumala@yafoss.org
+# @date 2024-01-07
+# @last_modified 2024-01-07T20:42:13+08:00
+# @brief file list that won't be traced by git
+
+# The file missfont.log should tell which font is missing.
+missfont.log
+
+# suffixs
+
+# Records cross references, toc and so on.
+*.aux
+# This detialed what's inside .fdb_latexmk file
+# [latexmk - Who knows about the format of fdb_latexmk? - TeX - LaTeX Stack Exchange]
+# https://tex.stackexchange.com/questions/705359/who-knows-about-the-format-of-fdb-latexmk
+*.fdb_latexmk
+# Contains the full filesystem paths of all included files.
+*.fls
+# Giving some information about the compiler that you are running.
+*.log
+# Synctex use it to do reverse search.
+*.synctex.gz
+# Table of content information of file.
+*.toc
+# Itermediate files that `xdvipdfmx` is fed with to produce the final PDF file
+# [xetex - How to view .xdv files? - TeX - LaTeX Stack Exchange]
+# https://tex.stackexchange.com/questions/85094/how-to-view-xdv-files
+*.xdv
+
+# Consier don't use `*.pdf` because there may be some standlone PDFs will be
+# inserted into the final pdf. Thought they will still be able to rebuild.
+*.pdf
