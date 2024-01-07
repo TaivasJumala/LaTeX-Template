@@ -1,0 +1,23 @@
+/**
+ * @file ../.vscode/extesions.json
+ * @author TaivasJumala
+ * @E-Mail taivasjumala@yafoss.org
+ * @date  2024-01-06
+ * @last_modified 2024-01-06T12:45:52+08:00
+ * @description
+ * VSCode currently does not providet a way to enble a set of certain extensions
+ * using a config files¹, this setting will just let VS Code prompts a user to
+ * install the recommended extensions².
+ * @references
+ * [1] Github - micosoft/vscode #issue420239
+ * https://github.com/microsoft/vscode/issues/40239
+ * [2] /Visual Studio Code/Documents/USER GUIDE/Extesions Marketplace/Workspace recommended extensions
+ * https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+ */
+{
+    "recommendations": [
+        // Following extensions are necessites.
+        "James-Yu.latex-workshop",
+        // Following extesions are recommended.
+    ]
+}
