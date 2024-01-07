@@ -19,6 +19,9 @@
  * https://github.com/James-Yu/LaTeX-Workshop/wiki/
  */
 {
+    // So that LaTeX Workshop trigger auto build when you decide to save file.
+    "files.autoSave": "off",
+
     // improve this file's readvilitiy
     "json.format.keepLines": true,
 
