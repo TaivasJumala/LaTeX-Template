@@ -35,7 +35,7 @@
     "[latex]": {
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
-        "editor.fontFamily": "'思源黑体','inter'",
+        // "editor.fontFamily": "'思源黑体','inter'",
         "editor.unicodeHighlight.nonBasicASCII": false,
         "editor.unicodeHighlight.allowedLocales": {
             "_os": true,
@@ -64,7 +64,7 @@
      * Texify tool chain from MikTeX for non-perl user:
      * https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#misc
      */
-    // "latex-workshop.latex.recipes": [],
+    // "latex-workshop.latex.recipes": [ ],
 
     /**
      * Each tool appearing in the tools field of recipes is defined
@@ -293,13 +293,13 @@
      * THeme base on Gruvbox Material Medium to match my VSCode theme.
      * https://github.com/sainnhe/gruvbox-material
      */
-    "latex-workshop.view.pdf.color.light.pageColorsForeground": "#654735",
-    "latex-workshop.view.pdf.color.light.pageColorsBackground": "#FBF1C7",
-    "latex-workshop.view.pdf.color.light.backgroundColor": "#F2E5BC",
-    "latex-workshop.view.pdf.color.light.pageBorderColor": "#F2E5BC",
+    // "latex-workshop.view.pdf.color.light.pageColorsForeground": "#654735",
+    // "latex-workshop.view.pdf.color.light.pageColorsBackground": "#FBF1C7",
+    // "latex-workshop.view.pdf.color.light.backgroundColor": "#F2E5BC",
+    // "latex-workshop.view.pdf.color.light.pageBorderColor": "#F2E5BC",
 
-    "latex-workshop.view.pdf.color.dark.pageColorsForeground": "#d4be98",
-    "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#282828",
+    // "latex-workshop.view.pdf.color.dark.pageColorsForeground": "#d4be98",
+    // "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#282828",
     "latex-workshop.view.pdf.color.dark.backgroundColor": "#1B1B1B",
     "latex-workshop.view.pdf.color.dark.pageBorderColor": "#3C3836",
 

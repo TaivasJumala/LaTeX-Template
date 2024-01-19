@@ -1,0 +1,20 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{font_configuration}
+
+\RequirePackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Inter}
+\setmonofont{Maple Mono SC NF}
+\RequirePackage{xeCJK}
+\xeCJKsetup{
+    CJKspace      = true,
+    CJKmath       = true,
+    AutoFakeBold  = true,
+    AutoFakeSlant = true
+}
+\setCJKmainfont[ItalicFont={楷体}]{思源宋体}
+\setCJKsansfont{思源黑体}
+\setCJKmonofont{Maple Mono SC NF}
+\defaultfontfeatures{Ligatures=TeX}
+
+\endinput

@@ -36,4 +36,4 @@ missfont.log
 
 # Consier don't use `*.pdf` because there may be some standlone PDFs will be
 # inserted into the final pdf. Thought they will still be able to rebuild.
-*.pdf
+test.pdf

@@ -1,0 +1,39 @@
+% @file test.tex
+% @author TaivasJumala
+% @email taivasjumala@yafoss.org
+% @date 2024-01-08
+% @last_modified 2024-01-08T14:51:57+08:00
+% @brief Document to test every settings.
+
+\documentclass{binder}
+
+\usepackage[main=english]{babel}
+\usepackage[toc]{blindtext}
+
+\begin{document}
+
+\include{contents/basic_structures/title}
+
+\tableofcontents
+
+\book{TEST BOOK TITLE}
+
+\part{TEST PART TITLE}
+
+\chapter{TEST CHAPTER TITLE}
+
+\section{TEST SECTION TITLE}
+
+\subsection{TEST SUBSECTION TITLE}
+
+\paragraph{TEST PARAGRAPH TITLE}
+
+\subparagraph{TEST SUBPARAGRAPH TITLE}
+
+\blindtext[1]
+
+\begin{testcolors}[rgb,HTML]
+    \testcolor{background_0}
+\end{testcolors}
+
+\end{document}
